@@ -13,7 +13,7 @@ body {
 .list {
 	list-style: none;
 }
-.logo {
+.logo-header {
 	font-family: "Raleway" sans-serif;
 	font-weight: 800;
 	font-size: 18px;
@@ -25,10 +25,19 @@ body {
 .link {
 	text-decoration: none;
 }
-.logo span {
+.logo-header-span {
 	color: var(--color-grey);
 }
-.logo-footer span {
+.logo-footer {
+	font-family: "Raleway" sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--logo-color);
+}
+.logo-footer-span {
 	color: #f4f4fd;
 }
 .menu-list__item {
@@ -96,6 +105,7 @@ body {
 	line-height: 1.2;
 	font-weight: 500;
 	letter-spacing: 0.02em;
+	color: var(--color-grey);
 }
 .description {
 	font-size: 16px;
